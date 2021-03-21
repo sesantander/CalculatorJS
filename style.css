@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Myriad;
+    src: url(MyriadPro-Regular.otf);
+}
+.boton_num{
+    background-color:#333333;
+    margin: 7px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px; 
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 35px;
+    font-family: Myriad;
+    border-style: none;
+
+    transition: all 0.5s;
+    
+}
+
+.boton_num:hover{
+    background-color: rgba(255, 255, 255, 0.527);
+ }
+#cero{
+    padding-left: 25px;
+    padding-right: 128px;
+}
+.result_operator{
+   
+    background-color: #fe9505;
+    margin: 7px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px; 
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 35px;
+    font-family: Myriad; 
+    border-style: none;
+
+    transition: all 0.5s;
+    
+}
+.result_operator:hover{
+    background-color: #fe96058f;
+ }
+
+
+
+
+.operators{
+
+    background-color: #fe9505;
+    margin: 7px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px; 
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 35px;
+    font-family: Myriad; 
+    border-style: none;
+
+    transition: all 0.5s;
+}
+
+
+.operators:hover{
+    background-color: #fe96058f;
+    
+ }
+
+#erase{
+    background-color: #a5a5a5;
+    margin: 7px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px; 
+    color: #000000;
+    font-weight: 300;
+    font-size: 35px;
+    font-family: Myriad;  
+    border-style: none;
+
+    transition: all 0.4s;
+}
+#erase:hover{
+    background-color: grey;
+    
+ }
+
+
+.comma{
+    background-color: grey;
+    margin: 7px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px; 
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 35px;
+    font-family: Myriad; 
+    border-style: none;
+}
+
+.comma:hover{
+    background-color: rgba(255, 255, 255, 0.527);
+ }
+
+.boton_num:hover{
+   background-color: rgba(255, 255, 255, 0.527);
+}
+
+.result{
+    background-color: black;
+    height: 80px;
+    width: 180px;
+    margin-left: 124px;
+    color: #ffffff;
+    
+    font-weight: 200;
+    font-size: 55px;
+    font-family: Myriad;
+    border-style: none;
+   
+    text-align: right;
+    vertical-align: bottom;
+    line-height: 70px; 
+
+    transition: all 0.5s;
+}
+
+.result:hover{
+    background-color: grey;
+ }
+
+body{
+    background-color: grey;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.bigcontainer{
+    background-color: #000000;    
+
+    border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 338px;
+	max-width: 100%;
+    min-height: 500px;
+    align-content: center;
+    margin-left: 41vw;
+    margin-top: 10vh;
+}
+
+.relleno{
+    background-color: #a5a5a5;
+    margin: 7px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px; 
+    color: #000000;
+    font-weight: 300;
+    font-size: 35px;
+    font-family: Myriad; 
+    border-style: none;
+}
